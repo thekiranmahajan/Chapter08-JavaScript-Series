@@ -1,0 +1,199 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  width: 50%;
+  height: 20vh;
+  border: 1px dashed #0d0d0d;
+}
+.BoxContainer {
+  display: flex;
+}
+#boxOne,
+#btnOne {
+  background-color: #ffd700;
+}
+#boxTwo,
+#btnTwo {
+  background-color: #ff00ff;
+}
+#boxThree,
+#btnThree {
+  background-color: #00fa9a;
+}
+#boxFour,
+#btnFour {
+  background-color: #00bfff;
+}
+#boxFive,
+#btnFive {
+  background-color: #ff1493;
+}
+
+#boxSetAttribute {
+  background-color: #f44e5c;
+  color: #fff;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons {
+  border: none;
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 1em;
+  transition: ease-in 5ms;
+}
+.buttons:active {
+  background-color: #fff !important;
+  box-shadow: 2px 2px 5px #1d1c1b;
+}
+#insertionContainer {
+  border: 0.3em solid rgb(0, 0, 0);
+  border-radius: 1em;
+  background-color: #ff8103;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 2em;
+  flex-direction: column;
+}
+.insertionMethods {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+}
+p {
+  color: #f90909;
+  font-size: 1em;
+}
+#aDiv {
+  border: 0.3em solid rgb(0, 0, 0);
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2em;
+  background-color: #ffd700;
+}
+.twoDIV {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1em;
+  padding: 0em 1em;
+}
+.insertAdjacentHTML {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+hr {
+  border-color: #f90909;
+  width: 100%;
+}
+#colorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.1em;
+  width: 100%;
+}
+
+.red {
+  text-align: center;
+  width: 50%;
+  background-color: red;
+}
+.blue {
+  text-align: center;
+  width: 50%;
+  background-color: blue;
+}
+.green {
+  text-align: center;
+  width: 50%;
+  background-color: green;
+}
+.yellow {
+  text-align: center;
+  width: 50%;
+  background-color: yellow;
+}
+#coolColors,
+#eventHandler {
+  width: 50%;
+  height: 20vh;
+  background-color: #f80a46;
+  border: 0.2em dashed #000;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.2em 1em;
+}
+#colorIndexH1 {
+  color: #fff;
+}
+
+.otherTwoDIV {
+  display: flex;
+  justify-content: space-between;
+}
+.bulbAndColorBar {
+  display: flex;
+  align-items: center;
+}
+.bulbOFF {
+  background-position: center;
+  width: 50%;
+  height: 23vh;
+  background-image: url(https://www.w3schools.com/js/pic_bulboff.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bulbON {
+  background-position: center;
+  width: 50%;
+  height: 23vh;
+  background-image: url(https://www.w3schools.com/js/pic_bulbon.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#h2OfBulb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+#eventHandler button {
+  background-color: #36454f;
+  border: none;
+  color: #fff;
+  margin: 0.2em;
+  padding: 1em;
+  border-radius: 0.4em;
+}
+#eventHandler button:active {
+  background-color: #808080;
+}

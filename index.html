@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chapter08.css">
+    <title>Chapter08: Events And Other DOM Properties</title>
+</head>
+
+<body><!--A commentNode before change-->
+    <div class="BoxContainer">
+        <div id="boxOne" class="box">
+            <h3>
+                boxOne
+            </h3>
+        </div>
+        <div id="boxTwo" class="box">
+            <h3>
+                boxTwo
+            </h3>
+        </div>
+        <div id="boxThree" class="box">
+            <h3>
+                boxThree
+            </h3>
+        </div>
+        <div id="boxFour" class="box">
+            <h3>
+                boxFour
+            </h3>
+        </div>
+        <div id="boxFive" class="box" data-name="kiranMahajan">
+            <h3>
+                boxFive
+            </h3>
+        </div>
+
+    </div>
+    <div class="btnContainer">
+        <button id="btnOne" class="buttons" onclick="hasAttributeFunction();">
+            boxOne.hasAttribute("id")
+        </button>
+        <button id="btnTwo" class="buttons">
+            boxTwo.getAttribute("class")
+        </button>
+        <button id="btnThree" class="buttons">
+            boxThree.setAttribute("id", "boxSetAttribute")
+        </button>
+        <button id="btnFour" class="buttons">
+            boxFour.removeAttribute("id")
+        </button>
+        <button id="btnFive" class="buttons">
+            boxFive.attributes
+        </button>
+    </div>
+    <div class="twoDIV">
+        <div class="insertionMethods">
+            <h3>
+                at Start outer
+            </h3>
+            <div id="insertionContainer">
+                <h3>
+                    at Start inner
+                </h3>
+                <hr>
+                <h3>
+                    at End inner
+                </h3>
+
+            </div>
+            <h3>
+                at End outer
+            </h3>
+        </div>
+
+        <div class="insertAdjacentHTML">
+            <div id="aDiv">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="bulbAndColorBar">
+        <div id="bulb" class="bulbOFF">
+
+        </div>
+        <div id="colorContainer" class="we can separate classes by space">
+            <div class="red">
+                <h3>if class="red" color:red;</h3>
+            </div>
+            <div>
+                <h3>if class="blue" color:blue;</h3>
+            </div>
+            <div class="green">
+                <h3>if class="green" color:green;</h3>
+            </div>
+            <div class="yellow">
+                <h3>if class="yellow" color:yellow;</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="otherTwoDIV">
+        <div id="coolColors">
+            <h1 id="colorIndexH1">colorNameHere</h1>
+        </div>
+        <div id="eventHandler">
+            <button onclick="alert('hello! everyone😎')">alert</button>
+            <button id="clickMeBtn">Not Clicked!</button>
+            <button id="w3schools">W3schools</button>
+            <a href="https://developer.mozilla.org/en-US/" target="_blank"><button>MDN Web Docs</button></a>
+        </div>
+    </div>
+
+    <script src="chapter08.js"></script>
+    <h2 id="righth2"></h2>
+</body>
+
+</html>
